@@ -1,10 +1,8 @@
-import { FirstPart } from "./FirstPart/FirstPart";
 import "./Landing.scss";
 
 export const Landing = () => {
   return (
     <>
-      <FirstPart />
 
       <div className="second_page">
         <div className="texts">

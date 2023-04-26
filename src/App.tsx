@@ -1,8 +1,8 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.scss";
-import { Landing } from "./pages/Landing/Landing";
 import { Header } from "./Header";
+import { FirstPart } from "../src/pages/Landing/components/FirstPart/FirstPart";
 
 
 function App() {
@@ -10,7 +10,9 @@ function App() {
     <>
       <Header />
       <main>
-        <Landing />
+        
+        <FirstPart />
+        
       </main>
 
       <footer></footer>
