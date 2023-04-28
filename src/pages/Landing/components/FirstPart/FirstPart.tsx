@@ -27,7 +27,7 @@ export const FirstPart = () => {
             you can too with 1 week and a good attitude.
           </p>
 
-          <Button />
+          <Button div={"Request Quote"} />
         </div>
 
         <div className="bottom_logo_foto">

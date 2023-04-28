@@ -1,0 +1,74 @@
+@import "../../../../common";
+
+
+.fifth_page {
+    font-family: "Poppins";
+    display: flex;
+  
+    .content {
+      flex-direction: column;
+  
+      max-width: 1280px;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      justify-content: space-between;
+      padding-top: 96px;
+      @media (max-width: 901px) {
+        max-width: 900px;
+        display: flex;
+        flex-direction: column;
+      }
+    }
+    .up_part {
+      #logo_right {
+        position: relative;
+        left: 620px;
+        bottom: 62px;
+        @media (max-width: 901px) {
+          display: none;
+        }
+      }
+  
+      max-width: 777px;
+      .small_txt {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #000000;
+        opacity: 0.87;
+      }
+  
+      h2 {
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 58px;
+        color: #232536;
+        padding-bottom: 40px;
+        @media (max-width: 901px) {
+          font-size: 28px;
+          line-height: 38px;
+        }
+      }
+  
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #232536;
+        opacity: 0.87;
+        padding-bottom: 68px;
+      }
+    }
+  
+    .down_part {
+      display: flex;
+      flex-direction: column;
+      gap: 48px;
+      padding-bottom: 96px;
+  
+
+    }
+  }

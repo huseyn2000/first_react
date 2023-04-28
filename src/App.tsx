@@ -10,12 +10,8 @@ function App() {
     <>
       <Header />
       <main>
-        
         <Landing />
-        
       </main>
-
-      <footer></footer>
     </>
   );
 }

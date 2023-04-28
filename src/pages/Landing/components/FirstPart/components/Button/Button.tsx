@@ -2,18 +2,20 @@ import "./Button.scss";
 import shapes from "../../assets/Shapes.svg";
 import arrow from "../../assets/Icon.svg";
 
-export const Button = () => {
+interface ButtonProps {
+  div: string;
+}
+
+export const Button = (props: ButtonProps) => {
   return (
-    <header>
-      <button>
-        <img id="shape" src={shapes} alt="shape" />
+    <button>
+      <img id="shape" src={shapes} alt="shape" />
 
-        <div>Request Quote</div>
+      <div>{props.div}</div>
 
-        <div>
-          <img src={arrow} alt="arrow" />
-        </div>
-      </button>
-    </header>
+      <div>
+        <img src={arrow} alt="arrow" />
+      </div>
+    </button>
   );
 };

@@ -1,0 +1,51 @@
+@import "../../../../common";
+
+.seventh_page {
+    background: #ecf8f9;
+
+    .content {
+        max-width: 1280px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+
+        padding-bottom: 96px;
+        padding-top: 96px;
+
+        h2 {
+            font-family: "Poppins";
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 58px;
+            color: #232536;
+            margin-bottom: 48px;
+        }
+
+        .blue {
+            max-width: 16px;
+            height: 16px;
+            right: 1424px;
+            top: 5156px;
+
+            margin-bottom: 19px;
+            background: #666dff;
+        }
+
+        .lasts {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+
+            gap: 32px;
+
+            @media (max-width: 901px) {
+                display: flex;
+                flex-direction: column;
+                align-items: self-start;
+            }
+
+     
+         
+        }
+    }
+}
