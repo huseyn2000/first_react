@@ -1,13 +1,14 @@
 import "./FirstPart.scss";
-import shapes from "./assets/Shapes.svg";
-import shapes2 from "./assets/Shapes2.svg";
-import arrow from "./assets/Icon.svg";
+
+import "./components/Button/Button";
+
 import main_photo from "./assets/Image.png";
 import foot1 from "./assets/firsy.svg";
 import foot2 from "./assets/Logo (1).svg";
 import foot3 from "./assets/Logo (2).svg";
 import foot4 from "./assets/Logo (3).svg";
 import foot5 from "./assets/last_logo.svg";
+import { Button } from "./components/Button/Button";
 
 export const FirstPart = () => {
   return (
@@ -26,17 +27,7 @@ export const FirstPart = () => {
             you can too with 1 week and a good attitude.
           </p>
 
-          <button>
-            <img id="shape" src={shapes} alt="shape" />
-
-            <div>Request Quote</div>
-
-            <div>
-              <img src={arrow} alt="arrow" />
-            </div>
-
-            <img id="shape" src={shapes2} alt="shape" />
-          </button>
+          <Button />
         </div>
 
         <div className="bottom_logo_foto">

@@ -1,0 +1,46 @@
+@import "../../../../../../common";
+
+.thrd_box {
+    max-width: 515px;
+    display: flex;
+    background-color: #ffffff;
+
+    gap: 16px;
+    padding-left: 32px;
+    padding-top: 32px;
+    position: relative;
+    padding-right: 112px;
+    padding-bottom: 20px;
+
+    @media (max-width: 901px) {
+      padding: 0%;
+    }
+
+    .text1 {
+      h6 {
+        font-family: "Poppins";
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+        color: #000000;
+        padding-bottom: 8px;
+      }
+
+      p {
+        font-family: "Poppins";
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #5d5f6d;
+      }
+
+      img {
+        position: absolute;
+        bottom: -9px;
+        left: 0;
+        @media (max-width: 901px) {
+          display: none;
+        }
+      }
+    }
+  }

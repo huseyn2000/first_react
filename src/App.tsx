@@ -2,7 +2,7 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.scss";
 import { Header } from "./Header";
-import { FirstPart } from "../src/pages/Landing/components/FirstPart/FirstPart";
+import { Landing } from "./pages/Landing/Landing";
 
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
       <Header />
       <main>
         
-        <FirstPart />
+        <Landing />
         
       </main>
 
