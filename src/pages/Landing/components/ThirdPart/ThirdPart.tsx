@@ -9,7 +9,7 @@ import { WhiteBox } from "./components/WhiteBox/WhiteBox";
 export const ThirdPart = () => {
   return (
     <div className="third_page">
-      <div className="content">
+      <div className="content5">
         <div className="left">
           <div className="expertise">Our expertise</div>
 

@@ -11,7 +11,7 @@ import { Box } from "./components/Box/Box";
 export const Five = () => {
   return (
     <div className="fifth_page">
-      <div className="content">
+      <div className="content43">
         <div className="up_part">
           <div className="small_txt">Our Process</div>
 

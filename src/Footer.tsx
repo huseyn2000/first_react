@@ -1,4 +1,4 @@
-import "./Eight.scss";
+import "./Footer.scss";
 
 import leftcorner from "./assests/left_corner.svg";
 import side_corner from "./assests/siede_clmn.svg";
@@ -11,14 +11,14 @@ import insta from "./assests/Instagram/Negative.svg";
 import tweet from "./assests/Twitter/Negative.svg";
 import link from "./assests/LinkedIn/Negative.svg";
 
-export const Eight = () => {
+export const Footer = () => {
   return (
-    <div className="eighth_page">
+    <div className="foot">
       <div className="container">
         <div className="blue_box">
           <img className="logo_corner" src={leftcorner} alt="" />
 
-          <div className="content">
+          <div className="content4">
             <div className="texts">
               <div className="smallone">NEWSLETTER</div>
               <div className="bigone">
@@ -108,7 +108,7 @@ export const Eight = () => {
       </div>
 
       <footer>
-        <div className="content">
+        <div className="content3">
           <div className="header">
             <img src={logo1} alt="finsweet" />
 

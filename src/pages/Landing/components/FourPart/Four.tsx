@@ -8,7 +8,7 @@ import three from "./assets/Icon Div.svg";
 export const Four = () => {
   return (
     <div className="fourth_page">
-      <div className="content">
+      <div className="content21">
         <div className="up_part">
           <div className="small_txt">Our Services</div>
 

@@ -1,0 +1,73 @@
+@import "../../../../../../common";
+
+.right {
+    display: flex;
+    flex-direction: column;
+
+    .quote {
+        display: flex;
+        justify-content: right;
+        @media (max-width: 901px) {
+            display: none;
+        }
+    }
+    .content {
+        background: #ffffff;
+        max-width: 607px;
+        padding-left: 40px;
+        padding-right: 79px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding-top: 48px;
+
+        @media (max-width: 901px) {
+            padding-left: 4px;
+            padding-right: 9px;
+            max-width: 407px;
+        }
+
+        .h4_className {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 36px;
+            color: #232536;
+            opacity: 0.87;
+            @media (max-width: 901px) {
+                font-size: 14px;
+                line-height: 20px;
+            }
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .row {
+                gap: 16px;
+                display: flex;
+
+                h6 {
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 28px;
+                    color: #232536;
+                    opacity: 0.87;
+                }
+                p {
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 20px;
+                    color: #232536;
+                    opacity: 0.6;
+                }
+            }
+        }
+    }
+
+    .circle {
+        padding-top: 25px;
+        padding-left: 50%;
+    }
+}

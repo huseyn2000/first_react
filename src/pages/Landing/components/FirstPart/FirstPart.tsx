@@ -13,7 +13,7 @@ import { Button } from "./components/Button/Button";
 export const FirstPart = () => {
   return (
     <div className="first_page1">
-      <div className="first_body">
+      <div className="first_body1">
         <div className="three_comp_div">
           <div className="square"></div>
 

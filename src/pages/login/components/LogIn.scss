@@ -1,0 +1,193 @@
+@import "../../../common";
+
+.first_page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  margin-top: 32px;
+
+  .content {
+    width: 640px;
+
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 582px;
+    border: 1px solid rgba(102, 102, 102, 0.5);
+    border-radius: 24px;
+
+    .signin {
+      padding-top: 32px;
+      padding-bottom: 48px;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 48px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #333333;
+    }
+
+    .both {
+      display: grid;
+      gap: 7px;
+      padding-bottom: 24px;
+
+      .name {
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #666666;
+      }
+      input[type="text"] {
+        width: 528px;
+        height: 56px;
+        box-sizing: border-box;
+        border: 1px solid rgba(102, 102, 102, 0.35);
+        border-radius: 12px;
+        font-size: 16px;
+        background-color: white;
+        padding: 12px 20px 12px 40px;
+      }
+    }
+
+    .total {
+      .txt {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #333333;
+
+        a {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          color: #333333;
+        }
+      }
+
+      .buuton {
+        background: #111111;
+        opacity: 0.25;
+        border-radius: 40px;
+        width: 528px;
+        height: 64px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: cell;
+        margin-bottom: 15px;
+
+        div {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 22px;
+          line-height: 33px;
+          display: flex;
+          align-items: center;
+          text-align: center;
+          color: #ffffff;
+        }
+      }
+    }
+
+    .two {
+      display: flex;
+      justify-content: space-between;
+      gap: 150px;
+
+      margin-top: 48px;
+
+      .l {
+        a {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          color: #333333;
+        }
+      }
+    }
+  }
+
+  .content2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .community {
+      font-family: "Avenir";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 30px;
+      display: flex;
+      align-items: center;
+      color: #666666;
+      margin-bottom: 32px;
+    }
+
+    .buuton {
+      background: none;
+      border: none;
+      opacity: 0.25;
+      border-radius: 40px;
+      width: 715px;
+      height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: cell;
+      border: 3px solid #000; /* set the border to black */
+
+      color: #000;
+
+      div {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 33px;
+        display: flex;
+        align-items: center;
+        color: #000;
+        text-align: center;
+      }
+    }
+  }
+
+  footer {
+    margin-bottom: 17px;
+    margin-top: 40px;
+    nav {
+      display: flex;
+
+      gap: 40px;
+      a {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        text-decoration: none;
+        color: #666666;
+      }
+    }
+  }
+}

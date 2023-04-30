@@ -1,12 +1,9 @@
 import "./SecondPart.scss";
-import frs  from "./second_page_assets/Image 1.png";
-import second  from "./second_page_assets/Image 2.png";
-import third  from "./second_page_assets/Image 3.png";
-import link_arrow  from "./second_page_assets/footer_arrow.svg";
-import three_color  from "./second_page_assets/Group 1710.svg";
-
-
-
+import frs from "./second_page_assets/Image 1.png";
+import second from "./second_page_assets/Image 2.png";
+import third from "./second_page_assets/Image 3.png";
+import link_arrow from "./second_page_assets/footer_arrow.svg";
+import three_color from "./second_page_assets/Group 1710.svg";
 
 export const SecondPart = () => {
   return (
@@ -36,10 +33,9 @@ export const SecondPart = () => {
       </div>
 
       <div className="container">
-      <img src={frs} alt="" />
-      <img src={second} alt="" />
-      <img src={third} alt="" />
-
+        <img src={frs} alt="" />
+        <img src={second} alt="" />
+        <img src={third} alt="" />
       </div>
 
       <div className="second_page_footer">

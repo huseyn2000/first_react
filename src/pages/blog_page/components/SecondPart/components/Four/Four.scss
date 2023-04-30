@@ -1,0 +1,53 @@
+@import "../../../../../../common";
+
+.left1 {
+    display: flex;
+    .firsts_box {
+        width: 328px;
+        height: 248px;
+        left: 160px;
+        top: 5297px;
+
+        background: #f9f9ff;
+
+        .padding {
+            padding: 32px;
+
+            .small_p {
+                font-family: "Poppins";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                color: #232536;
+                opacity: 0.6;
+                padding-bottom: 8px;
+            }
+
+            .h4_className {
+                font-family: "Poppins";
+                font-style: normal;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 36px;
+                color: #232536;
+                padding-bottom: 24px;
+            }
+
+            .link_tag {
+                display: flex;
+                gap: 12px;
+                a {
+                    font-family: "Poppins";
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #444cfc;
+                    opacity: 0.87;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

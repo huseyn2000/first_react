@@ -6,7 +6,7 @@ import { Two } from "./components/TwoBox/Two";
 export const Seven = () => {
   return (
     <div className="seventh_page">
-      <div className="content">
+      <div className="contentm">
         <div className="blue"></div>
 
         <h2>Read our latest blogs & news</h2>
