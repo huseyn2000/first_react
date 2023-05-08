@@ -1,6 +1,7 @@
 import './Header.scss';
 import finsweet from './Finsweet.svg';
 import arrow from '../src/pages/Landing/components/FirstPart/assets/Icon.svg';
+import { Link } from 'react-router-dom';
 
 
 export const Header = () => {
@@ -10,27 +11,27 @@ export const Header = () => {
         <img src={finsweet} alt="finsweet" />
 
         <nav>
-          <a href="#" className="className_header">
+          <Link to="/landing" className="className_header">
             Home
-          </a>
-          <a href="#" className="className_header">
+          </Link>
+          <Link to="/" className="className_header">
             Service
-          </a>
-          <a href="#" className="className_header">
+          </Link>
+          <Link to="/" className="className_header">
             Company
-          </a>
-          <a href="#" className="className_header">
+          </Link>
+          <Link to="/" className="className_header">
             Career
-          </a>
-          <a href="#" className="className_header">
+          </Link>
+          <Link to="/blogpage" className="className_header">
             Blog
-          </a>
-          <a href="#" className="className_header">
+          </Link>
+          <Link to="/" className="className_header">
             Contact us
-          </a>
-          <a href="#" className="icon_link">
+          </Link>
+          <Link to="/" className="icon_link">
             Clone project
-          </a>
+          </Link>
           <img src={arrow} alt="arrow" />
 
         </nav>
